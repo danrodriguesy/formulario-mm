@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="/css/estilo.css" rel="stylesheet" />
+        <title>Cadastro Promoção Maravilhosa Make</title>
+    </head>
+    <body>
+        <header>
+            <img src="/img/logo.png" />
+        </header>
+        <div id="container">
+            <p>Insria seus dados abaixo para receber as novidades da loja via whatsapp.</p>
+            <form action="https://formsubmit.co/danrodriguesy@gmail.com" method="POST">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
+                <input type="hidden" name="_template" value="table">
+                <label for="name">Nome:</label>
+                <br />
+                <input type="text" name="name" required>
+                <br /><br />
+                <label for="name">Celular:</label>
+                <br />
+                <input type="phone" name="phone" required>
+                <br />
+                <button type="submit" id="enviar">Enviar</button>
+            </form>
+        </div>
+    </body>
+</html>

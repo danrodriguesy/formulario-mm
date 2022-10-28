@@ -1,0 +1,30 @@
+#mensagem-retorno {
+    font-size: 25px;
+    margin-left: 60px;
+    margin-right: 60px;
+    text-align: center;
+    margin-top: 100px;
+    font-family: Arial;
+}
+#voltar {
+    margin-top: 30px;
+    background: pink;
+    padding: 10px;
+    width: 19%;
+    border-radius: 9px;
+    border: 1px solid pink;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    #mensagem-retorno {
+        font-size: 12px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #voltar {
+        width: 50%;
+        font-size: 11px;
+    }
+}

@@ -1,0 +1,57 @@
+body {
+    max-width: max-content;
+    margin: auto;
+    font-family: Arial;    
+}
+header {
+    width: 100vw;
+    display: flex;
+    box-shadow: 3px 5px 5px 0px rgb(0 0 0 / 3%);
+    justify-content: center;
+}
+header img {
+    width: auto;
+    margin-bottom: 47px;
+    margin-top: 20px;
+}
+#container {
+    width: 300px;
+    min-height:300px;
+    margin:60px auto;
+}
+#container p {
+    text-align: center;
+    font-size: 12px;
+}
+form {
+    text-align: center;
+    margin-top: 30px;
+    
+}
+label {
+    font-size: 12px;
+    color: #333;
+}
+input {
+    border: 1px solid pink;
+    width: 80%;
+    outline: none;
+    height: 30px;
+    border-radius: 4px;
+    color: pink;
+}
+button {
+    margin-top: 30px;
+    background: pink;
+    padding: 10px;
+    width: 50%;
+    border-radius: 9px;
+    border: 1px solid pink;
+    font-size: 13px;
+    cursor: pointer;
+}
+@media (max-width: 600px) {
+    header img { 
+        width: 95%;
+    }
+}
